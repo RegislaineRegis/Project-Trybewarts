@@ -20,3 +20,11 @@ h1{
     color: white;
 }
 
+#evaluation-form{
+    display: flex;
+    width: 675px;
+}
+
+.main{
+    display: flex;
+}
