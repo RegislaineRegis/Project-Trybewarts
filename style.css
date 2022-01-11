@@ -22,9 +22,19 @@ h1{
 
 #evaluation-form{
     display: flex;
-    width: 675px;
+    max-width: 675px;
+    flex-direction: column
 }
 
 .main{
+    justify-content: space-evenly;
     display: flex;
 }
+
+.trybewarts-forms-logo{
+    height: 500px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    display: flex;
+}
+

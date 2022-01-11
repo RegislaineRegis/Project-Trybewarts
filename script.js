@@ -1,6 +1,4 @@
-let buttonValida = document.getElementById('buttom');
-
-buttonValida.addEventListener('click', valida);
+let buttonValida = document.getElementById(".buttom")
 
 function valida(event){
     event.preventDefault(); 
@@ -16,5 +14,5 @@ function valida(event){
        alert("Email ou senha inválidos.");   
     }
 }
-
+buttonValida.addEventListener('click', valida);
 
