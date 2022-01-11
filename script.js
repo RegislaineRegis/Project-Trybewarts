@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+
+
+=======
 // let inputEmail = document.querySelector('.inputEmail');
 // let inputSenha = document.querySelector('.inputSenha');
 // let button = document.querySelector(".buttom")
@@ -15,3 +19,4 @@
 // }
 
 // buttom.addEventListener('click', valida);
+>>>>>>> 8105bf196d0a61f0c6494c0d93bc032313ba5576
