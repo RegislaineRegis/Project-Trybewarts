@@ -9,6 +9,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: end;
+    width: 675px;
 }
 
 .trybewarts-header-logo{

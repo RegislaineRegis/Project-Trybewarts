@@ -1,4 +1,4 @@
-let buttonValida = document.getElementById(".buttom")
+let buttonValida = document.getElementById("buttom")
 
 function valida(event){
     event.preventDefault(); 

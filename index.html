@@ -20,12 +20,16 @@
     <main class="main">
     <div>
         <form action="GET" id="evaluation-form" >
-            <label for="input-name">Insira seu nome:</label>
-            <input type="text" id="input-name" placeholder="Nome">
+            <fieldset>
+            <legend>Insira seus dados: </legend> 
+            <input type="text" id="input-name" placeholder="Nome" autocomplete="on">
+            <input type="text" id="input-lastname" placeholder="Sobrenome" autocomplete="on">
+            <input type="text" id="input-email" placeholder="Email" autocomplete="on">
+            </fieldset>
         </form>
     </div>
     <div id="imagem">
-        <img src="images/trybewarts-colored.svg" height= "500px" alt="" id="trybewarts-forms-logo" width="400px">
+        <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo" width="400px" >
     </div>
     </main>
     <script src="script.js"></script>
