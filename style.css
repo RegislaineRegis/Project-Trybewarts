@@ -2,3 +2,14 @@
   background-color: rgb(50, 167, 145);
   display: flex;
 }
+
+.trybewarts-login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.trybewarts-header-logo{
+    max-width: 80px;
+    max-height: 90px;
+}
