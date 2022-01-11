@@ -1,6 +1,7 @@
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
+  justify-content: space-evenly;
 }
 
 .trybewarts-login{
@@ -9,7 +10,13 @@
     align-items: center;
     justify-content: end;
 }
+
 .trybewarts-header-logo{
     max-width: 80px;
     max-height: 90px;
 }
+
+h1{
+    color: white;
+}
+
