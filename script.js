@@ -13,7 +13,7 @@ function valida(event){
     if(email === emailValido && password === senhaValida){
         alert("Olá, Tryber!");
     }else{
-       alert('Email ou senha inválidos!');   
+       alert("Email ou senha inválidos.");   
     }
 }
 
