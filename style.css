@@ -10,11 +10,12 @@
     align-items: center;
     justify-content: end;
     width: 675px;
+   
 }
 
 .trybewarts-header-logo{
     max-width: 80px;
-    max-height: 90px;
+    max-height: 90px;     
 }
 
 h1{
@@ -32,10 +33,10 @@ h1{
     display: flex;
 }
 
-.trybewarts-forms-logo{
-    height: 500px;
+#trybewarts-forms-logo{
     align-items: flex-end;
     justify-content: flex-end;
     display: flex;
+    height: 500px;
 }
 
