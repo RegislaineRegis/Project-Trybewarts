@@ -20,8 +20,8 @@
     <main class="main">
     <div>
         <form action="GET" id="evaluation-form" >
-            <fieldset>
-            <legend>Insira seus dados: </legend> 
+        <fieldset>
+            <legend>FORMULÁRIO DE AVALIAÇÃO: </legend> 
             <input type="text" id="input-name" placeholder="Nome" autocomplete="on" class="estiloNomeSobrenome">
             <input type="text" id="input-lastname" placeholder="Sobrenome" autocomplete="on" class="estiloNomeSobrenome">
             <input type="text" id="input-email" placeholder="Email" autocomplete="on" class="estiloEmail">
@@ -31,9 +31,25 @@
             <option value="Reactpuff" type="text" id="reactpuff-house">Reactpuff</option>
             <option value="Corvinode" type="text" id="corvinode-house">Corvinode</option>
             <option value="Pytherina" type="text" id="pytherina-house">Pytherina</option>
-            </label></select>            
-            </fieldset>
+            </label></select>      
 
+            <div class="estilo-em-linha"></div>
+
+        <div class="container-radios">
+            <label id ="label-family">Qual sua família?</label>
+            <div>
+            <label for="frontend"><input type="radio" name="family" value="Frontend" id="frontend">Família Frontend</label> 
+            </div>
+            <div>
+            <label for="backend"><input type="radio" name="family" value="Backend" id="backend">Família Backend</label>
+            </div>
+            <div>
+            <label for="fullstack"><input type="radio" name="family" value="FullStack" id="fullstack">Família FullStack</label> 
+            </div>        
+        </div>      
+            
+
+        </fieldset>
         </form>
     </div>
     <div id="imagem">
