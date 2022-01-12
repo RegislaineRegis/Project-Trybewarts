@@ -17,8 +17,9 @@
             <button id="buttom">Entrar</button>
         </form>
     </header>
+
     <main class="main">
-    <div>
+    <div>       
         <form action="GET" id="evaluation-form" >
         <fieldset>
             <legend>FORMULÁRIO DE AVALIAÇÃO: </legend> 
@@ -33,45 +34,35 @@
             <option value="Pytherina" type="text" id="pytherina-house">Pytherina</option>
             </label></select>      
 
-            <div class="estilo-em-linha"></div>
-    <div class="container">
-        <div class="container-radios">
-            <label id ="label-family">Qual sua família?</label>
-            <div>
-            <label for="frontend"><input type="radio" name="family" value="Frontend" id="frontend">Família Frontend</label> 
+           <hr>
+            <div class="container">
+                <div class="container-radios">
+                    <label id ="label-family">Qual sua família?</label>
+                    <div>
+                    <label for="frontend"><input type="radio" name="family" value="Frontend" id="frontend">Família Frontend</label> 
+                    </div>
+                    <div>
+                    <label for="backend"><input type="radio" name="family" value="Backend" id="backend">Família Backend</label>
+                    </div>
+                    <div>
+                    <label for="fullstack"><input type="radio" name="family" value="FullStack" id="fullstack">Família FullStack</label> 
+                    </div>        
+                </div>    
+        
+                <div class="container-checkbox">
+                    <label id ="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                    <div>
+                    <label for="HoFs"><input type="checkbox" value="HoFs" id="HoFs">HoFs</label>            
+                    <label for="Jest"><input type="checkbox" value="Jest" id="Jest">Jest</label>            
+                    <label for="Promises"><input type="checkbox" value="Promises" id="Promises">Promises</label> 
+                    </div>
+                    <div>
+                    <label for="React"><input type="checkbox" value="React" id="React">React</label>            
+                    <label for="SQL"><input type="checkbox" value="SQL" id="SQL">SQL</label>            
+                    <label for="Python"><input type="checkbox" value="Python" id="Python">Python</label>
+                    </div>       
+                </div> 
             </div>
-            <div>
-            <label for="backend"><input type="radio" name="family" value="Backend" id="backend">Família Backend</label>
-            </div>
-            <div>
-            <label for="fullstack"><input type="radio" name="family" value="FullStack" id="fullstack">Família FullStack</label> 
-            </div>        
-        </div>    
-    
-        <div class="container-checkbox">
-            <label id ="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-            <div>
-            <label for="HoFs"><input type="checkbox" value="HoFs" id="HoFs">HoFs</label> 
-            </div>
-            <div>
-            <label for="Jest"><input type="checkbox" value="Jest" id="Jest">Jest</label> 
-            </div>
-            <div>
-            <label for="Promises"><input type="checkbox" value="Promises" id="Promises">Promises</label> 
-            </div>
-            <div>
-            <label for="React"><input type="checkbox" value="React" id="React">React</label> 
-            </div> 
-            <div>
-            <label for="SQL"><input type="checkbox" value="SQL" id="SQL">SQL</label>
-            </div>
-            <div>
-            <label for="Python"><input type="checkbox" value="Python" id="Python">Python</label>
-            </div>       
-        </div> 
-    </div>
-        </fieldset>
-        <fieldset>
             <div>
                 <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
                 <input type="radio" name="rate" id="option1" value="1">
@@ -95,27 +86,29 @@
                 <input type="radio" name="rate" id="option10" value="10">
                 <label for="option10">10</label>
             </div>
-            <hr>
-            <div id="caixaFeedback">
-                <label for="textarea" class="textarea">Deixe seu comentário:</label>
-                <textarea name="textarea" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
-            </div>
-            <div>
-                <label for="" id="label-infos">Você concorda com o uso das informações acima?</label>
-                <input type="checkbox" name="" id="agreement">
-            </div>
-            <button type="submit" id="submit-btn" disabled>Enviar</button>
-        </fieldset>
-        </form>
+            <hr>                        
+                <div id="caixaFeedback">
+                    <fieldset>                 
+                        <legend for="textarea" class="textarea">Deixe seu comentário:</legend>
+                        <textarea name="textarea" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+                    </fieldset> 
+                </div>           
+                <div>
+                    <label for="" id="label-infos">Você concorda com o uso das informações acima?</label>
+                    <input type="checkbox" name="" id="agreement">
+                </div>               
+        </fieldset> 
+            <button type="submit" id="submit-btn">Enviar</button> 
     </div>
     <div id="imagem">
-        <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo" width="400px" >
+        <img src="images/trybewarts-colored.svg" alt="" id = "trybewarts-forms-logo" width="400px">
     </div>
     </main>
 
-    <footer id="rodape">
-        Direitos reservados à Trybewarts©
-    </footer>
+        <footer id="rodape">                
+            Direitos reservados à Trybewarts©                
+        </footer>
+            
 
     <script src="script.js"></script>
 </body>
