@@ -1,4 +1,4 @@
-let buttonValida = document.getElementById("buttom")
+const buttonValida = document.getElementById("buttom")
 
 function valida(event){
     event.preventDefault(); 
@@ -10,7 +10,7 @@ function valida(event){
     let senhaValida = '123456'
     if(email === emailValido && password === senhaValida){
         alert("Olá, Tryber!");
-    }else{
+    } else {
        alert("Email ou senha inválidos.");   
     }
 }
