@@ -8,15 +8,15 @@
     
 </head>
 <body>    
-    <header class="header">
+    <header class="header">        
         <img src="images/trybewarts-header-logo.svg" alt="" class="trybewarts-header-logo">
         <h1 id="trybewarts-header-title">Trybewarts</h1>
-        <form action="" class="trybewarts-login">
+               <form action="" class="trybewarts-login">
             <input type="email" name="email" placeholder="Email" id="inputEmail" autocomplete="on">
             <input type="password" name="password" placeholder="Senha" id="inputSenha" autocomplete="on">
-            <button id="buttom">Entrar</button>
+            <button id="buttom">Entrar</button>        
         </form>
-    </header>
+   </header>
 
     <main class="main">
     <div>       
@@ -27,13 +27,14 @@
             <input type="text" id="input-lastname" placeholder="Sobrenome" autocomplete="on" class="estiloNomeSobrenome">
             <input type="text" id="input-email" placeholder="Email" autocomplete="on" class="estiloEmail">
 
-            <label for="house"> casa <select name="casa" id="house" class="estiloCasa">
+            <label class="estiloCasa" for="house">casa<select name="casa" id="house" class="estiloCasa">
             <option value="Gitnória" type="text" id="gitnoria-house">Gitnória</option>
             <option value="Reactpuff" type="text" id="reactpuff-house">Reactpuff</option>
             <option value="Corvinode" type="text" id="corvinode-house">Corvinode</option>
             <option value="Pytherina" type="text" id="pytherina-house">Pytherina</option>
-            </label></select>      
-
+            </label></select>     
+            <br>
+            <br>
            <hr>
             <div class="container">
                 <div class="container-radios">
@@ -63,7 +64,7 @@
                     </div>       
                 </div> 
             </div>
-            <div>
+            <div class="ajuste-top">
                 <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
                 <input type="radio" name="rate" id="option1" value="1">
                 <label for="option1">1</label>
@@ -87,13 +88,13 @@
                 <label for="option10">10</label>
             </div>
             <hr>                        
-                <div id="caixaFeedback">
+                <div class="ajuste-top">
                     <fieldset>                 
                         <legend for="textarea" class="textarea">Deixe seu comentário:</legend>
                         <textarea name="textarea" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
                     </fieldset> 
                 </div>           
-                <div>
+                <div class="ajuste-top">
                     <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
                     <input type="checkbox" name="checkboxValida" id="agreement" >
                 </div>               

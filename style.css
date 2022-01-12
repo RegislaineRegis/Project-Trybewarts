@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
 }
@@ -6,15 +6,17 @@
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.trybewarts-login{
+.trybewarts-login {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: end;
-  width: 675px;       
+  width: 675px;
+  margin-right: 15px;
 }
 
 #buttom {
@@ -28,28 +30,29 @@
   margin-right: 3px;
 }
 
-.trybewarts-header-logo{
+.trybewarts-header-logo {
   max-width: 80px;
-  max-height: 90px;     
+  max-height: 90px;
 }
 
-h1{
+h1 {
   color: white;
+  margin-left: 300px;
 }
 
-#evaluation-form{
+#evaluation-form {
   display: flex;
   max-width: 675px;
   flex-direction: column;
   margin-top: 30px;
 }
 
-.main{
-  justify-content: space-evenly;
+.main {
   display: flex;
+  justify-content: space-evenly;  
 }
 
-#trybewarts-forms-logo{
+#trybewarts-forms-logo {
   align-items: flex-end;
   justify-content: flex-end;
   display: flex;
@@ -60,13 +63,15 @@ h1{
   width: 40%;
   height: 30px;
   border-radius: 10px;
+  margin-left: 20px;
 }
 
 .estiloEmail {
   width: 40%;
   height: 30px;
-  margin-top: 2px;
+  margin-top: 5px;
   border-radius: 10px;
+  margin-left: 20px;
 }
 
 .estiloCasa {
@@ -74,6 +79,7 @@ h1{
   height: 30px;
   margin-top: 2px;
   border-radius: 10px;
+  margin-left: 10px;
 }
 
 .main {
@@ -81,48 +87,47 @@ h1{
   height: 100%;
 }
 
-.container-radios{
+.container-radios {
   display: flex;
   flex-direction: column;
-  margin-top: 2px;
-  width: 50%;    
-}
-
-#label-family {
-  margin-top: 10px;
+  width: 50%;
 }
 
 .container-checkbox {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-top: 10px;
-        
 }
 
 .container {
-  display: flex;    
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20px  ;
 }
 
-#caixaFeedback{
+#caixaFeedback {
   display: flex;
   flex-direction: column;
 }
 
-#textarea{
+#textarea {
   resize: none;
 }
 
-#rodape{
+#rodape {
   display: flex;
-  justify-content: center;       
+  justify-content: center;
   background-color: gray;
-  padding: 10px;    
+  padding: 10px;
   color: rgb(245, 238, 238);
   height: 100%;
-  margin-top: 1px;       
+  margin-top: 1px;
 }
 
 #textarea {
   width: 100%;
+}
+
+.ajuste-top {
+  margin-top: 20px;
 }
