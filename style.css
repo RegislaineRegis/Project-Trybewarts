@@ -118,4 +118,8 @@ h1{
     justify-content: center;
     background-color: gray;
     align-items: flex-end;
+    padding: 40px;
+    bottom: 0;
+    position:absolute;
+    width:100%;
 }
