@@ -40,3 +40,20 @@ h1{
     height: 500px;
 }
 
+.estiloNomeSobrenome {
+    width: 40%;
+    height: 30px;
+}
+
+.estiloEmail {
+    width: 40%;
+    height: 30px;
+    margin-top: 2px;
+}
+
+.estiloCasa {
+    width: 36%;
+    height: 30px;
+    margin-top: 2px;
+}
+
