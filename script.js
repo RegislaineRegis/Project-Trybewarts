@@ -16,3 +16,8 @@ function valida(event){
 }
 buttonValida.addEventListener('click', valida);
 
+
+
+function agreementFunction(){
+    
+}

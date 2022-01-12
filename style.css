@@ -112,3 +112,10 @@ h1{
 #textarea{
     resize: none;
 }
+
+#rodape{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    align-items: flex-end;
+}
