@@ -1,6 +1,6 @@
-let buttonValida = document.getElementById("buttom")
+const buttonValida = document.getElementById("buttom")
 
-function valida(event){
+function valida(event) {
     event.preventDefault(); 
     let inputEmail = document.getElementById('inputEmail');
     let inputSenha = document.getElementById('inputSenha');    
@@ -8,9 +8,9 @@ function valida(event){
     let password = inputSenha.value;    
     let emailValido = 'tryber@teste.com'
     let senhaValida = '123456'
-    if(email === emailValido && password === senhaValida){
+    if(email === emailValido && password === senhaValida) {
         alert("Olá, Tryber!");
-    }else{
+    } else {
        alert("Email ou senha inválidos.");   
     }
 }
