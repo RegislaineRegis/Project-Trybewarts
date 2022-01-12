@@ -103,3 +103,12 @@ h1{
 .container {
     display: flex;    
 }
+
+#caixaFeedback{
+    display: flex;
+    flex-direction: column;
+}
+
+#textarea{
+ resize: none;
+}
