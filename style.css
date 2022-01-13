@@ -101,7 +101,12 @@ h1 {
 }
 
 #counter {
-  margin-left: 95%;
+  margin-left: 90%;
+  position: absolute;
+}
+
+#ajustaposicao {
+  position: relative;
 }
 
 .container {
