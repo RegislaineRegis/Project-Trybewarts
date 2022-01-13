@@ -4,7 +4,6 @@ const buttonEnviar = document.getElementById('submit-btn');
 const conteudoTextarea = document.getElementById('textarea');
 const paragrafo = document.getElementById('counter');
 paragrafo.innerHTML = conteudoTextarea.maxLength;
-const exibirForm = document.getElementById('exibirform');
 
 function atualizaContador() {
   const contador = conteudoTextarea.textLength;
