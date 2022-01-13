@@ -1,121 +1,137 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: monospace;
+  font-size: 13px;
 }
 
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.trybewarts-login{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: end;
-    width: 675px;       
+.trybewarts-login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  width: 675px;
+  margin-right: 15px;
 }
 
 #buttom {
-    border-radius: 10px;
-    width: 80px;
-    height: 30px;
-    margin-left: 3px;
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+  margin-left: 3px;
 }
 
 #inputEmail {
-    margin-right: 3px;
+  margin-right: 3px;
 }
 
-.trybewarts-header-logo{
-    max-width: 80px;
-    max-height: 90px;     
+.trybewarts-header-logo {
+  max-width: 80px;
+  max-height: 90px;
 }
 
-h1{
-    color: white;
+h1 {
+  color: white;
+  margin-left: 300px;
 }
 
-#evaluation-form{
-    display: flex;
-    max-width: 675px;
-    flex-direction: column;
-    margin-top: 30px;
-}
-
-.main{
-    justify-content: space-evenly;
-    display: flex;
-}
-
-#trybewarts-forms-logo{
-    align-items: flex-end;
-    justify-content: flex-end;
-    display: flex;
-    height: 500px;
-}
-
-.estiloNomeSobrenome {
-    width: 40%;
-    height: 30px;
-    border-radius: 10px;
-}
-
-.estiloEmail {
-    width: 40%;
-    height: 30px;
-    margin-top: 2px;
-    border-radius: 10px;
-}
-
-.estiloCasa {
-    width: 36%;
-    height: 30px;
-    margin-top: 2px;
-    border-radius: 10px;
+#evaluation-form {
+  display: flex;
+  max-width: 675px;
+  flex-direction: column;
+  margin-top: 30px;
 }
 
 .main {
-    background-color: rgb(190, 201, 201);
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(190, 201, 201);
+  height: 100%;
 }
 
-.estilo-em-linha {
-    border: solid 1px rgb(173, 175, 175);
-    margin-top: 10px;
-    width: 100%;
+#trybewarts-forms-logo {
+  align-items: flex-end;
+  justify-content: flex-end;
+  display: flex;
+  height: 500px;
 }
 
-.container-radios{
-    display: flex;
-    flex-direction: column;
-    margin-top: 2px;
-    width: 50%;    
+.estiloNomeSobrenome {
+  width: 40%;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 20px;
 }
 
-#label-family {
-    margin-top: 10px;
+.estiloEmail {
+  width: 40%;
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.estiloCasa {
+  width: 36%;
+  height: 30px;
+  margin-top: 2px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.container-radios {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 .container-checkbox {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 10px;
-        
+  display: flex;
+  flex-direction: column;
+}
+
+#counter {
+  margin-left: 95%;
 }
 
 .container {
-    display: flex;    
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
-#caixaFeedback{
-    display: flex;
-    flex-direction: column;
+#caixaFeedback {
+  display: flex;
+  flex-direction: column;
 }
 
-#textarea{
-    resize: none;
+#textarea {
+  resize: none;
+  width: 100%;
+}
+
+#rodape {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  padding: 10px;
+  color: rgb(245, 238, 238);
+  height: 100%;
+  margin-top: 1px;
+}
+
+.ajuste-top {
+  margin-top: 20px;
 }
 
 #rodape{
