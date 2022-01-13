@@ -1,4 +1,5 @@
 const buttonValida = document.getElementById('buttom');
+const conteudoTextarea = document.getElementsByClassName('conteudoTextarea')
 
 function atualizaContador() {
   const contador = conteudoTextarea.textLength;
@@ -7,11 +8,14 @@ function atualizaContador() {
 
 conteudoTextarea.addEventListener('input', atualizaContador);
 
+const inputCheckbox = document.getElementsByClassName('inputCheckbox');
+const buttonEnviar = document.getElementsByClassName('buttonEnviar');
+
 function habilitaBotaoEnviar() {
   if (inputCheckbox.checked === true) {
-    buttonEnviar.disabled = false;
+    buttonEnviar.disabled === false;
   } else {
-    buttonEnviar.disabled = true;
+    buttonEnviar.disabled === true;
   }
 }
 inputCheckbox.addEventListener('click', habilitaBotaoEnviar);
