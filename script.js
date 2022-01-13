@@ -1,21 +1,32 @@
 const buttonValida = document.getElementById('buttom');
-const conteudoTextarea = document.getElementsByClassName('conteudoTextarea')
+const conteudoTextarea = document.getElementById('textarea');
+const exibeForms = document.getElementById('exibirform');
+const inputNome = document.getElementById('input-name');
+const inputSobrenome = document.getElementById('input-lastname');
+const buttonEnviar = document.getElementById('submit-btn');
+const inputCheckbox = document.getElementById('agreement');
+const inputEmail = document.getElementById('input-email');
+const inputCasa = document.getElementById('house');
+const inputFamiliaFrontend = document.getElementById('frontend');
+const inputFamiliaBeckend = document.getElementById('backend');
+const inputFamiliaFullstack = document.getElementById('fullstack');
+
+//const tagForms = document.getElementById('evaluation-form');
+const paragrafo = document.getElementById('counter');
+
+paragrafo.innerHTML = conteudoTextarea.maxLength;
 
 function atualizaContador() {
   const contador = conteudoTextarea.textLength;
   paragrafo.innerHTML = conteudoTextarea.maxLength - contador;
 }
-
 conteudoTextarea.addEventListener('input', atualizaContador);
-
-const inputCheckbox = document.getElementsByClassName('inputCheckbox');
-const buttonEnviar = document.getElementsByClassName('buttonEnviar');
 
 function habilitaBotaoEnviar() {
   if (inputCheckbox.checked === true) {
-    buttonEnviar.disabled === false;
+    buttonEnviar.disabled = false;
   } else {
-    buttonEnviar.disabled === true;
+    buttonEnviar.disabled = true;
   }
 }
 inputCheckbox.addEventListener('click', habilitaBotaoEnviar);
@@ -35,3 +46,30 @@ function valida(event) {
   }
 }
 buttonValida.addEventListener('click', valida);
+
+function exibirForms(event) {
+  event.preventDefault();
+  let arrayInformacao = [];
+  
+  arrayInformacao.push('Nome:' + inputNome.value + ' ' + inputSobrenome.value);
+  arrayInformacao.push('Casa:' + inputCasa.value);
+  arrayInformacao.push('Email:' + inputEmail.value);
+    
+  exibeForms.innerHTML = arrayInformacao;
+  
+  
+  
+
+  // exibeForms.innerHTML = Object.value(exibe);  
+
+/*
+  if(inputFamiliaFrontend.checked === true){
+    arrayInformacao.push('Família:' + inputFamiliaFrontend);
+  } else if (inputFamiliaBeckend.checked === true) {
+    arrayInformacao.push('Família:' + inputFamiliaBeckend);
+  }else {
+    arrayInformacao.push('Família:' + inputFamiliaFullstack);
+  }*/
+  
+}
+buttonEnviar.addEventListener('click', exibirForms);

@@ -103,6 +103,7 @@ h1 {
 #counter {
   margin-left: 90%;
   position: absolute;
+  line-height: 22em;
 }
 
 #ajustaposicao {
@@ -125,27 +126,23 @@ h1 {
   width: 100%;
 }
 
-#rodape {
-  display: flex;
-  justify-content: center;
-  background-color: gray;
-  padding: 10px;
-  color: rgb(245, 238, 238);
-  /* height: 100%; */
-  margin-top: 1px;
-}
-
 .ajuste-top {
   margin-top: 20px;
 }
 
-#rodape{
-    display: flex;
-    justify-content: center;
-    background-color: gray;
-    align-items: flex-end;
-    padding: 40px;
-    bottom: 0;
-    position:absolute;
-    width:100%;
-} 
+#rodape {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(146, 143, 143);
+  color: rgb(229, 234, 238);
+  align-items: flex-end;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+}
+
+#submit-btn {
+  border-radius: 10px;
+  background: rgb(45, 5, 73);
+  color: rgb(220, 225, 230);
+}
