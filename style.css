@@ -141,4 +141,6 @@ h1 {
 #submit-btn {
   background-color: rgb(39, 24, 141);
   color: rgb(240, 234, 226);
+  border-radius: 10px;
+  height: 30px;
 }
