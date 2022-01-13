@@ -55,6 +55,8 @@ h1 {
 .main {
   display: flex;
   justify-content: space-evenly;
+  background-color: rgb(190, 201, 201);
+  height: 100%;
 }
 
 #trybewarts-forms-logo {
@@ -87,11 +89,6 @@ h1 {
   margin-left: 10px;
 }
 
-.main {
-  background-color: rgb(190, 201, 201);
-  height: 100%;
-}
-
 .container-radios {
   display: flex;
   flex-direction: column;
@@ -101,7 +98,6 @@ h1 {
 .container-checkbox {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 #counter {
