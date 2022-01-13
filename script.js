@@ -1,4 +1,4 @@
-const buttonValida = document.getElementById("buttom")
+const buttonValida = document.getElementById('buttom');
 
 function valida(event) {
     event.preventDefault(); 
