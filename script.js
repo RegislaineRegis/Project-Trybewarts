@@ -5,9 +5,6 @@ const inputSobrenome = document.getElementById('input-lastname');
 const buttonEnviar = document.getElementById('submit-btn');
 const inputCheckbox = document.getElementById('agreement');
 const inputCasa = document.getElementById('house');
-const inputFamiliaFrontend = document.getElementById('frontend');
-const inputFamiliaBeckend = document.getElementById('backend');
-const inputFamiliaFullstack = document.getElementById('fullstack');
 const conteudoForms = document.getElementById('evaluation-form');
 const option1 = document.querySelector('#option1');
 const option2 = document.querySelector('#option2');
@@ -83,14 +80,19 @@ buttonValida.addEventListener('click', valida);
 
 function checkMateria() {
   const materiaClass = document.getElementsByClassName('subject');
+  const materiasCheck = [];
   for (let index = 0; index < materiaClass.length; index += 1) {
     if (materiaClass[index].checked === true) {
-      arrayInformacao.push(`Matérias: ${materia[index]}`);
+      materiasCheck.push(materia[index]);
     }
   }
+  return materiasCheck.join(', ');
 }
 
 function checkFamilia() {
+  const inputFamiliaFrontend = document.getElementById('frontend');
+  const inputFamiliaBeckend = document.getElementById('backend');
+  const inputFamiliaFullstack = document.getElementById('fullstack');
   if (inputFamiliaFrontend.checked === true) {
     arrayInformacao.push(`Família: ${inputFamiliaFrontend.value}`);
   } else if (inputFamiliaBeckend.checked === true) {
@@ -146,7 +148,7 @@ function exibirForms(event) {
   arrayInformacao.push(`Email: ${inputEmail.value}`);
   arrayInformacao.push(`Casa: ${inputCasa.value}`);
   checkFamilia();
-  checkMateria();
+  arrayInformacao.push(`Matérias: ${checkMateria()}`);
   checkAvaliacao();
   arrayInformacao.push(`Observações: ${conteudoTextarea.value}`);
   removeFilho();
