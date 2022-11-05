@@ -1,6 +1,6 @@
 Este projeto contém os requisitos realizados por _[Regislaine Fidelis Regis](https://www.linkedin.com/in/regislaine-regis/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
-# Project Trybewarts
+# Project Trybewarts :mage:
 
 Primeiro projeto em dupla do curso, desenvolvemos uma página de formulário da Escola de Magia de Trybewarts, 
 em que as pessoas estudantes poderão enviar seus feedbacks sobre ela. O tema do projeto foi baseado na obra 'Harry Potter". de J. K. Rowling, 
