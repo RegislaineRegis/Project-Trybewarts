@@ -6,6 +6,11 @@ Primeiro projeto em dupla do curso, desenvolvemos uma página de formulário da 
 em que as pessoas estudantes poderão enviar seus feedbacks sobre ela. O tema do projeto foi baseado na obra 'Harry Potter". de J. K. Rowling, 
 já que programar é o mais próximo que podemos chegar de algo verdadeiramente mágico!Foi criado uma propria versão da Escola de Bruxaria.
 
+Primeiro projeto em dupla do curso, os desenvolvedores foram:
+
+* [Regislaine Regis](https://github.com/RegislaineRegis)
+* [Clara Medeiros](https://github.com/mclaramedeiros)
+
 # **Técnologias usadas**
 
 Front-end:
